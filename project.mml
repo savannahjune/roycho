@@ -1,33 +1,41 @@
 {
   "bounds": [
-    -180,
-    -85.05112877980659,
-    180,
-    85.05112877980659
+    -75.6573,
+    38.8055,
+    -73.7073,
+    41.3892
   ],
   "center": [
-    0,
-    0,
-    2
+    -74.5532,
+    41.1497,
+    10
   ],
   "format": "png",
   "interactivity": false,
-  "minzoom": 0,
-  "maxzoom": 22,
+  "minzoom": 7,
+  "maxzoom": 14,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss"
   ],
   "Layer": [
     {
-      "id": "countries",
-      "name": "countries",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "geometry": "polygon",
+      "extent": [
+        -75.55391680175063,
+        38.84942353209491,
+        -73.89030785170405,
+        41.356178822647564
+      ],
+      "id": "njstate",
+      "class": "",
       "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
-        "type": "shape"
-      }
+        "file": "layers/njstate/nj_state.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "njstate"
     },
     {
       "geometry": "polygon",
@@ -46,10 +54,53 @@
       "srs": "",
       "advanced": {},
       "name": "boundary"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -74.0832,
+        40.87621,
+        -74.01598,
+        40.8976
+      ],
+      "id": "extracities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/extracities/extracities.csv",
+        "id": "extracities",
+        "project": "roycho",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "extracities"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -75.13322591770343,
+        40.704647017641534,
+        -73.89917836400616,
+        41.356225475215
+      ],
+      "id": "cities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/cities/nj_munis.shp",
+        "id": "cities",
+        "project": "roycho",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cities"
     }
   ],
   "scale": 1,
   "metatile": 2,
-  "name": "",
-  "description": ""
+  "name": "roychonavyuppercase",
+  "description": "",
+  "attribution": ""
 }
