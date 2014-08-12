@@ -28,6 +28,24 @@
         "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
         "type": "shape"
       }
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -75.13564,
+        40.705381,
+        -73.893979,
+        41.357423
+      ],
+      "id": "boundary",
+      "class": "",
+      "Datasource": {
+        "file": "layers/boundary/NJCD_2011_PLAN_SHAPE_FILE.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "boundary"
     }
   ],
   "scale": 1,

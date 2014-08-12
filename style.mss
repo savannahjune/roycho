@@ -10,3 +10,10 @@ Map {
   }
   polygon-fill: #fff;
 }
+
+#boundary {
+  line-color:grey;
+  line-width:0.5;
+  polygon-opacity:0.25;
+  polygon-fill:grey;
+}
