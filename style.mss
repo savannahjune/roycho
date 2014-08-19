@@ -34,12 +34,12 @@ Map {
   text-name:"[Name]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-transform:uppercase;
+  //text-transform:uppercase;
   text-size:12;
   text-halo-fill:white;
   text-halo-radius:3;
-  text-fill: @cities_text_navy;
-  //text-fill: @cities_text_red;
+  //text-fill: @cities_text_navy;
+  text-fill: @cities_text_red;
 }
  
 
@@ -50,12 +50,12 @@ Map {
   text-name:"[MUN]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-transform:uppercase;
+  //text-transform:uppercase;
   text-size:12;
   text-halo-fill:white;
   text-halo-radius:3;
-  text-fill: @cities_text_navy;
-  //text-fill: @cities_text_red;
+  //text-fill: @cities_text_navy;
+  text-fill: @cities_text_red;
 } 
 
 
